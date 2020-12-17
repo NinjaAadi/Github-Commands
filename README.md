@@ -141,3 +141,25 @@ git stash clear
 ![alt text](https://github.com/NinjaAadi/Github-Commands/blob/master/remote-meaning.png)
 <br/>
 Image taken from https://www.javatpoint.com/git-remote
+
+<p>Check your remote repo name</p>
+
+```c
+git remote
+```
+<p>Check your remote repository URL</p>
+
+```c
+git remote -v
+```
+
+<p>Add remote repository</p>
+
+```c
+git remote [name] [url]
+```
+<p>Exampe </p>
+
+```c
+git add origin https://github.com/NinjaAadi/Github-Commands.git
+```
