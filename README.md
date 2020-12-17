@@ -139,3 +139,4 @@ git stash clear
 <p>Remote/Remote repository means the main repository where all the developers share their changes. A remote reposity is usually stored in a code hosting service like Github.</p?>
 
 ![alt text](https://github.com/NinjaAadi/Github-Commands/blob/master/remote-meaning.png)
+Image taken from https://www.javatpoint.com/git-remote
