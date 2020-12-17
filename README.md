@@ -13,16 +13,22 @@ git init
 ```c
 git add filename
 ```
-To add all the files
+To add all the files for staging
 
 ```c
 git add .
+```
+
+<p>Remove from staging</p>
+
+```c
+git rm --cached ["filename"]
 ```
 <h2>What is a commit?</h2>
 <p>A commit is a change that is made and saved to your local git repository.</p>
 
 ```c
-git commit -m"Commit message"
+git commit -m ["Commit message"]
 ```
 <h2>What is a push?</h2>
 <p>Pushing is storing the local commits to the remote repository in Github.</p>
@@ -58,6 +64,53 @@ git diff
 ```c
 git remote add origin 
 ```
-<h2>Remove a file
 <h2>Who are collaborators?</h2>
 <p>Collaborator are persons who you give permissions to make change to your own repository.</p>
+
+<h2>Branching</h2>
+<p>Branching means to create a copy of the orgin of the repository such that you can modify the code without effecting the original code. If the branch code is successfull you can merge the two branches which will update the changes made to the main branch. This is the coolest feature of github</p>
+
+<h3>Branching and Merging Commands</h3>
+<ul>
+<li>Show all the branches of the current repository
+
+```c
+git branch
+```
+<li>Create a new branch</li>
+
+```c
+git branch [Branch name]
+```
+
+<li>Delete a branch</li>
+
+```c
+git branch -d ["branch Name"]
+```
+<li>Create a branch and switch to it</li>
+
+```c
+git checkout -b ["branch name"]
+```
+<li>Rename a local branch</li>
+
+```c
+git branch -m ["old branch name"] ["new branch name"]
+```
+<li>Switch to a branch</li>
+
+```c
+git checkout ["branch name"]	
+```
+<li>Merge a branch to the current branch</li>
+
+```c
+git merge ["branch name"]
+```
+<li>Merge two branches</li>
+
+```c
+git merge ["branch name 1"] ["branch name 2"]
+```
+</ul>
