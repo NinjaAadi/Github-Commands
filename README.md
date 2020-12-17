@@ -1,7 +1,63 @@
 <h1> Git Commands and their description</h1>
 
-<h2><b>
-Some questions and their answers
-</b></h2>
+<p>Initialize git in your local repository</p>
+
+```c
+git init
+```
 <h2>What is a staging area?</h2>
 <p>Staging Area is the area where you add files so that git can track it before making any commits</p>
+<p>Command to add files to the staging area:</p>
+
+
+```c
+git add filename
+```
+To add all the files
+
+```c
+git add .
+```
+<h2>What is a commit?</h2>
+<p>A commit is a change that is made and saved to your local git repository.</p>
+
+```c
+git commit -m"Commit message"
+```
+<h2>What is a push?</h2>
+<p>Pushing is storing the local commits to the remote repository in Github.</p>
+
+```c
+git push
+```
+<h2>Git status</h2>
+<p>Git status shows the status of the tracked files in your repository</p>
+
+```c
+git status
+```
+
+<h2> Cloning a repository</h2>
+
+```c
+git clone repository-link
+```
+
+<h2>Git difference</h2>
+<p>Git diff is used to track the changes that are made in your files</p>
+
+```c
+git diff
+```
+<h2>What is fork?</h2>
+<p>When you fork a repository, you make a copy of that repository in your Github account.Now you can clone the repository to your local workbase to work on it.</p>
+<br/>
+
+<p>Adding remote name to your repository so that other commands can be executed with ease.In this case the name is origin</p>
+
+```c
+git remote add origin 
+```
+<h2>Remove a file
+<h2>Who are collaborators?</h2>
+<p>Collaborator are persons who you give permissions to make change to your own repository.</p>
