@@ -163,5 +163,5 @@ git remote [name] [url]
 ```c
 git add origin https://github.com/NinjaAadi/Github-Commands.git
 
-testing something
+testing something in new branch
 ```
