@@ -114,3 +114,25 @@ git merge ["branch name"]
 git merge ["branch name 1"] ["branch name 2"]
 ```
 </ul>
+
+<h2>All about stashing</h2>
+<p>After commiting some changes you modify some files. Now you want to temporarily remove the changes to see the last commit. So you save the changes to stash.After viewing we can get back the changes saved in the strash</p>
+<br/>
+<p>Command to stash the changes</p>
+
+```c
+git stash
+```
+<p>Now after viewing the changes now we want to get back the changes that we made</p>
+
+```c
+git stash pop 
+```
+
+<p>Command to clear all the slashed entries</p>
+
+```c
+git stash clear
+```
+
+aaditya
