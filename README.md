@@ -213,3 +213,4 @@ git pull ["remote name"] ["branch name"]
 <li>Rebase the branch with its master branch</li>
 
 <p>Here is the images showing difference between branching vs rebasing
+
