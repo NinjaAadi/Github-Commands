@@ -214,4 +214,6 @@ git pull ["remote name"] ["branch name"]
 
 <p>Here is the images showing difference between branching vs rebasing</p>
 
-<img src="https://github.com/NinjaAadi/Github-Commands/blob/master/m1.png" alt="drawing" width="600"/>
+<img src="https://github.com/NinjaAadi/Github-Commands/blob/master/m1.png" alt="drawing" width="700"/>
+
+<img src="https://github.com/NinjaAadi/Github-Commands/blob/master/m2.png" alt="drawing" width="700"/>
