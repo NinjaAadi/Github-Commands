@@ -28,7 +28,7 @@ git rm --cached ["filename"]
 <p>A commit is a change that is made and saved to your local git repository.</p>
 
 ```c
-git commit -m ["Commit message"]
+git commit -m ["commit message"]
 ```
 <h2>What is a push?</h2>
 <p>Pushing is storing the local commits to the remote repository in Github.</p>
@@ -43,7 +43,7 @@ git push
 git status
 ```
 
-<h2> Cloning a repository</h2>
+<h2>Cloning a repository</h2>
 
 ```c
 git clone repository-link
@@ -56,10 +56,10 @@ git clone repository-link
 git diff
 ```
 <h2>What is fork?</h2>
-<p>When you fork a repository, you make a copy of that repository in your Github account.Now you can clone the repository to your local workbase to work on it.</p>
+<p>When you fork a repository, you make a copy of that repository in your Github account. Now you can clone the repository to your local workbase to work on it.</p>
 <br/>
 
-<p>Adding remote name to your repository so that other commands can be executed with ease.In this case the name is origin</p>
+<p>Adding remote name to your repository so that other commands can be executed with ease. In this case the name is origin</p>
 
 ```c
 git remote add origin 
@@ -86,7 +86,7 @@ git branch -a
 <li>Create a new branch</li>
 
 ```c
-git branch [Branch name]
+git branch ["branch name"]
 ```
 
 <li>Delete a branch</li>
@@ -167,7 +167,7 @@ git remote -v
 <p>Add remote repository</p>
 
 ```c
-git remote [name] [url]
+git remote ["name"] ["url"]
 ```
 <p>Exampe </p>
 
@@ -176,7 +176,7 @@ git add origin https://github.com/NinjaAadi/Github-Commands.git
 ```
 
 <h2>What is the difference between git fetch and git pull</h2>
-<p>Git fetch is used to just check what changes are made in the repository without actually changing anything in the local repository.It is just for checking what changes are made. Where as git pull actually makes the changes in the remote repo to your local repository.We can see the changes in git fetch using git log/master/branchname</p>
+<p>Git fetch is used to just check what changes are made in the repository without actually changing anything in the local repository. It is just for checking what changes are made whereas git pull actually addes the changes from the remote repository to your local repository. We can see the changes in git fetch using git log/master/branchname</p>
 
 Command to fetch a specific branch of a specific remote
 
