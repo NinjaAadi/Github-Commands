@@ -212,5 +212,6 @@ git pull ["remote name"] ["branch name"]
 <li>Merge two branches</li>
 <li>Rebase the branch with its master branch</li>
 
-<p>Here is the images showing difference between branching vs rebasing
+<p>Here is the images showing difference between branching vs rebasing</p>
 
+<img src="https://github.com/NinjaAadi/Github-Commands/blob/master/m1.png" alt="drawing" width="600"/>
