@@ -94,6 +94,11 @@ git branch [Branch name]
 ```c
 git branch -d ["branch Name"]
 ```
+<li>Delete a remote branch</li>
+
+```c
+git push origin --delete ["branch name"]
+```
 <li>Create a branch and switch to it</li>
 
 ```c
