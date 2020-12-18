@@ -72,10 +72,16 @@ git remote add origin
 
 <h3>Branching and Merging Commands</h3>
 <ul>
-<li>Show all the branches of the current repository
+<li>Show all the branches of local repository
 
 ```c
 git branch
+```
+
+<li>Show all the branches of the remote repository.</li>
+
+```c
+git branch -a
 ```
 <li>Create a new branch</li>
 
@@ -163,3 +169,42 @@ git remote [name] [url]
 ```c
 git add origin https://github.com/NinjaAadi/Github-Commands.git
 ```
+
+<h2>What is the difference between git fetch and git pull</h2>
+<p>Git fetch is used to just check what changes are made in the repository without actually changing anything in the local repository.It is just for checking what changes are made. Where as git pull actually makes the changes in the remote repo to your local repository.We can see the changes in git fetch using git log/master/branchname</p>
+
+Command to fetch a specific branch of a specific remote
+
+```c
+git fetch ["remote name"] ["branch name"]
+```
+
+Command to fetch all
+```c
+git fetch --all
+```
+
+See the commits that were made
+```c
+git log ["remote name"]/["branch name"]
+```
+
+Command to pull all the changes in the remote origin to local repo
+
+```c
+git pull ["remote origin name"]
+```
+
+Command to pull a change of certain branch of a remote repo
+
+```c
+git pull ["remote name"] ["branch name"]
+```
+
+<h2>Merging vs Rebasing</h2>
+<p>When it comes to join two branches we have two options </p>
+<ol>
+<li>Merge two branches</li>
+<li>Rebase the branch with its master branch</li>
+
+<p>Here is the images showing difference between branching vs rebasing
