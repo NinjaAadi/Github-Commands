@@ -221,6 +221,7 @@ git pull ["remote name"] ["branch name"]
 <h3>You should never rebase commits once they've been pushed to a public repository. The rebase would replace the old commits with new ones and it would look like that part of your project history abruptly vanished.</h3>
 
 <p>Rebase with another branch</p>
+
 ```c
 git rebase ["branch name"]
 ```
